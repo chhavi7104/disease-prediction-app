@@ -195,6 +195,32 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 40px;
-    border: #000000;
-    box-shadow: #222;
+    border: 1px solid #222;
+  border-radius:20px 20px 20px 20px;
+  padding:40px 60px;
+  }
+  .service1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    border: 1px solid #222;
+  border-radius:20px 20px 0 0;
+  padding:30px 80px;
+  }
+  #services h2{
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+  #servicewith{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #services {
+    border: 1px solid #222;
+  border-radius:20px 20px 20px 20px;
+  padding:30px 50px;
   }
