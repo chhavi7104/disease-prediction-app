@@ -1,0 +1,38 @@
+<annotation>
+	<folder>parth</folder>
+	<filename>P43_1.jpg</filename>
+	<path>C:\Users\Lenovo\OneDrive - vitbhopal.ac.in\Documents\Desktop\parth\P43_1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2912</width>
+		<height>2912</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Optic Cup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1598</xmin>
+			<ymin>1464</ymin>
+			<xmax>1728</xmax>
+			<ymax>1585</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Optic Disc</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1480</xmin>
+			<ymin>1309</ymin>
+			<xmax>1886</xmax>
+			<ymax>1706</ymax>
+		</bndbox>
+	</object>
+</annotation>

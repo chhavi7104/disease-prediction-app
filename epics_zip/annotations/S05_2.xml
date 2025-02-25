@@ -1,0 +1,38 @@
+<annotation>
+	<folder>parth</folder>
+	<filename>S05_2.jpg</filename>
+	<path>C:\Users\Lenovo\OneDrive - vitbhopal.ac.in\Documents\Desktop\parth\S05_2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2912</width>
+		<height>2912</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Optic Cup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>833</xmin>
+			<ymin>1447</ymin>
+			<xmax>998</xmax>
+			<ymax>1647</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Optic Disc</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>672</xmin>
+			<ymin>1335</ymin>
+			<xmax>1142</xmax>
+			<ymax>1835</ymax>
+		</bndbox>
+	</object>
+</annotation>

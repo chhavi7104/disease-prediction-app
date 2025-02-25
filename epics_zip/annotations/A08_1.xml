@@ -1,0 +1,26 @@
+<annotation>
+	<folder>arnav</folder>
+	<filename>A08_1.jpg</filename>
+	<path>D:\dataset_images\arnav\A08_1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2912</width>
+		<height>2912</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>disk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1888</xmin>
+			<ymin>1318</ymin>
+			<xmax>2238</xmax>
+			<ymax>1724</ymax>
+		</bndbox>
+	</object>
+</annotation>

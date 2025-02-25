@@ -1,0 +1,26 @@
+<annotation>
+	<folder>arnav</folder>
+	<filename>A12_2.jpg</filename>
+	<path>D:\dataset_images\arnav\A12_2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2912</width>
+		<height>2912</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>disk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>613</xmin>
+			<ymin>1243</ymin>
+			<xmax>1025</xmax>
+			<ymax>1693</ymax>
+		</bndbox>
+	</object>
+</annotation>
