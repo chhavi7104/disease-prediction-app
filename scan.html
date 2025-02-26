@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan your Image</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .upload-box {
+            background: rgb(216, 211, 211);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        input[type="file"] {
+            display: none;
+        }
+        .upload-label {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ee00ff;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        img {
+            margin-top: 10px;
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="epics_img/vitalvisionai_logo.png" class="logo" width="120" height="60"></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="scan.html">Scan</a></li>
+                <li><a href="chat.html">Chat</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#section-p1">Contact</a></li>
+                <li><button><a href="login.html">login/register</a></button></li>
+            </ul>
+        </div>
+       </section>
+    <section id="uploading">
+        <h1>Upload an Image</h1>
+        <p>Choose an image to scan for disease prediction.</p>
+        <p>Supported formats: .jpg, .jpeg, .png</p>
+        <p>Maximum file size: 5MB</p>
+        <p>For best results, use high-quality images with clear details.</p>
+        <p>Ensure the image is well-lit and focused on the affected area.</p>
+        <p>Click the button below to select an image.</p>
+        <p>Once the image is uploaded, the preview will be displayed below.</p>
+        <p>Click the 'Scan' button to initiate the disease prediction process.</p>
+        <p>For accurate results, ensure the image is relevant to the disease being diagnosed.</p>
+        <p>For any issues or queries, please contact us at <a href="about.html">About Us</a>.</p>
+    <div class="upload-box">
+        <label for="fileInput" class="upload-label">Choose an Image</label>
+        <input type="file" id="fileInput" accept="image/*">
+        <div id="imagePreview"></div>
+    </div>
+</section>
+<section>
+    <h1>Scan Results</h1>
+    <p>The scan results will be displayed here.</p>
+    <div id="servicewith">
+        <div class="service">
+            <h4>diabeties</h4>
+        </div>
+        <div class="service">
+            <h4>hypertension</h4>
+        </div>
+        <div class="service">
+             <h4>autism</h4>
+        </div>
+        </div>
+</section>
+<script src="script.js"></script>
+
+    <footer class="section-p1">
+        <div class="footer-container">
+            <div class="col">
+                <img src="epics_img/vitalvisionai_logo.png" class="logo" width="120" height="60">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> 562 Wellington Road,Street 32,San Francisco</p>
+                <p><strong>Phone:</strong> +1 123 456 7890</p>
+                <p><strong>Email:</strong> xyz@abc-mail.com</p>
+                <p><strong>Working Hours:</strong> 9am-5pm ,Mon-Sat</p>
+                <div class="social">
+                    <h4>Follow Us</h4>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <ul>
+                    <p><a href="about.html">About Us</a></p>
+                    <p><a href="#footer">Contact Us</a></p>
+                    <p><a href="#">Privacy Policy</a></p>
+                    <p><a href="#">Terms & Conditions</a></p>
+                    
+                </ul>
+            </div>
+           
+            <div class="col install">
+                <h4>Install App</h4>
+                <div class="app-logo">
+                    <a href="#"><img src="epics_img/pngegg (1).png" alt="" height="20px" width="20px"></a>
+                    <a href="#"><img src="epics_img/036244d0e0e4e91e3052a6c58df92fc9.jpg" alt="" height="20px" width="20px"></a>
+                    <p>Secured Payment Gateways</p>
+                    <img src="epics_img/visa-mastercard-american-express-logo-icons-set-vector-42788527.jpg" alt="" height="150px" width="190px">
+                </div>
+            </footer>
+</body>
+</html>
