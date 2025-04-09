@@ -8,7 +8,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 CORS(app)  # Allow cross-origin requests
 
-UPLOAD_FOLDER = "uploads"
+UPLOAD_FOLDER = "uploads"  # Directory to save uploaded files
 ALLOWED_EXTENSIONS = {"png", "jpg", "jpeg", "gif"}
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
@@ -20,6 +20,17 @@ def allowed_file(filename):
 @app.route("/")
 def index():
     return render_template("index.html")  # Serves the UI
+@app.route("/scan", methods=["GET", "POST"])
+def scan():
+    if request.method == "POST":
+        # Handle the scanning logic here
+        return jsonify({"message": "Scan initiated"})
+    return render_template("scan.html")  # Serves the scanning UI
+@app.route("/about")
+def about():
+    # Logic to download the scanned file
+    
+    return render_template("about.html")  # Serves the about page
 
 @app.route("/upload", methods=["POST"])
 def upload_file():
