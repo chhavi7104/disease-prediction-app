@@ -67,13 +67,18 @@
         <p>For accurate results, ensure the image is relevant to the disease being diagnosed.</p>
         <p>For any issues or queries, please contact us at <a href="about.html">About Us</a>.</p>
         <div class="upload-box">
-            <form action="/scan" method="POST" enctype="multipart/form-data">
+            <form id="uploadForm" enctype="multipart/form-data">
                 <label for="fileInput" class="upload-label">Choose an Image</label>
-                <input type="file" id="fileInput" name="file" accept="image/*" required>
-                <div id="imagePreview"></div>
+                <input type="file" id="fileInput" name="file" accept="image/*" required onchange="previewImage(event)">
+                
+                <div id="imagePreview" style="margin-top: 10px;"></div>
+        
                 <br><br>
+        
                 <button type="submit" class="upload-label">Scan</button>
             </form>
+        
+            <div id="uploadedImageContainer" style="margin-top: 20px;"></div>
         </div>
 </section>
 <section>
@@ -91,7 +96,7 @@
         </div>
         </div>
 </section>
-<script src="script.js"></script>
+<script src="static/script.js"></script>
 
     <footer class="section-p1">
         <div class="footer-container">
