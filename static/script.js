@@ -35,9 +35,9 @@ document.getElementById('uploadForm').addEventListener('submit', function(event)
             img.style.maxHeight = '300px';
 
             document.getElementById('uploadedImageContainer').innerHTML = `
-                <h3>Uploaded Image:</h3>
+                <h3>Uploaded Image</h3>
             `;
-            document.getElementById('uploadedImageContainer').appendChild(img);
+           
         } else {
             alert(data.error || 'Upload failed');
         }
