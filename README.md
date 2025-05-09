@@ -1,6 +1,6 @@
 # disease-prediction-app
 <h2> Epics Project </h2>
-# 🧠 Disease Prediction Website using Machine Learning
+# 🧠  Disease Prediction Website using Machine Learning
 
 Welcome to the **Visual AI**, a web-based platform that uses cutting-edge **Machine Learning** and **Retinopathy** analysis to predict the risk of **Diabetes**, **Hypertension**, and **Autism**. This project aims to support early diagnosis and assist healthcare professionals with advanced, accessible, and interpretable tools.
 
