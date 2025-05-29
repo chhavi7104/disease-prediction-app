@@ -1,4 +1,4 @@
-# disease-prediction-app
+# Disease-prediction-app
 <h2> Epics Project  </h2>
 # 🧠  Disease Prediction Website using Machine Learning
 
