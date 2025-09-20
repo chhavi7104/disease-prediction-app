@@ -8,7 +8,7 @@ Welcome to the **Visual AI**, a web-based platform that uses cutting-edge **Mach
 
 ## 🚀 Features 
  
-- 🔍 **Disease Prediction**: Predicts risk levels for:
+- 🔍 **Disease Prediction**: Predicts risk levels for: 
   - **Diabetes**
   - **Hypertension**
   - **Autism Spectrum Disorder (ASD)**
